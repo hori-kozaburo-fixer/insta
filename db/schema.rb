@@ -10,9 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< Updated upstream
-ActiveRecord::Schema.define(version: 2020_12_02_053952) do
-=======
 ActiveRecord::Schema.define(version: 2020_12_02_093600) do
 
   create_table "photos", force: :cascade do |t|
@@ -30,7 +27,6 @@ ActiveRecord::Schema.define(version: 2020_12_02_093600) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_posts_on_user_id"
   end
->>>>>>> Stashed changes
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
